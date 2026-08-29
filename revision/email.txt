@@ -1,9 +1,9 @@
 Hi Chaoyun,
 
-Attached are the revised manuscript including changes to the Machine Learning methods, Results and Discussion, Figure 5 caption, Conclusions and Supporting Information. All additions are highlighted in yellow.
+Attached are the revised manuscript and Supporting Information. All additions are highlighted in yellow.
 
 1. Complete dataset
-Table S3 in the Supporting Information contains all 23 experimental records, including the four input variables and both target values.
+A new table S3 in the Supporting Information contains all 23 experimental records, including the four input variables and both target values.
 
 2. Model fitting and validation
 Both XGBoost models were fitted using all 23 records. There was no separate training and test split, cross validation, repeated validation, or independent test set. The random seed was 42. The models used fixed hyperparameters without optimization.
@@ -15,7 +15,7 @@ A new table S4 reports R2, RMSE, and MAE for both targets. The manuscript and Su
 The caption of Figure S24 now explains that the agreement represents training fit rather than independently validated performance. The revised text also discusses the limitations of the small dataset and the absence of independent validation.
 
 5. Interpretation of XGBoost and SHAP
-The results are presented as trends within this dataset and the sampled ranges. They are not described as causal relationships or universal design principles.
+The results are presented as trends within this dataset and the sampled ranges.
 
 Quick summary for response letter:
 The same 23 experimental records were used for each target. For Faradaic efficiency, R² = 1.000, RMSE ≈ 0.090, and MAE = 0.069. For NH₃ yield, R² = 1.000, RMSE ≈ 0.235, and MAE = 0.180. All metrics describe fit to the training data rather than independently validated predictive performance.

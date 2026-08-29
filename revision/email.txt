@@ -1,0 +1,24 @@
+Hi Chaoyun,
+
+Here attached are the .... mansucript and SI. Reagrding your request:
+
+Provide the complete dataset used for the XGBoost/SHAP analysis, including the four input variables and corresponding target values for all data points, and add the dataset to the appropriate place in the Supporting Information.
+Added as Table S3 in the SI. It contains all 23 experimental records, four input variables, and two target values.
+
+Add a detailed description of the model validation procedure, including the train/test split or cross-validation method, number of folds/repeats, random seed (if applicable), and hyperparameter optimization procedure.
+Both models were fitted using all 23 records. No train and test split, cross validation, repeated validation, or independent test set was used. The random seed was 42. Fixed hyperparameters were used without optimization.
+
+Provide standard model-performance metrics, such as R², RMSE, and MAE, for each target analyzed, and clearly indicate whether these values are from the training set, test set, cross-validation, or another validation approach.
+Table S4 reports R², RMSE, and MAE for both targets. These values represent training fit.
+
+Add any relevant plots or analysis that would help demonstrate the robustness and limitations of the model given the relatively small dataset.
+Figure S24 and its caption were revised to clarify that the agreement represents training fit rather than independently validated performance. Dataset limitations are explicitly discussed.
+
+Revise the discussion of the XGBoost and SHAP results so that they are presented as dataset-specific trends rather than universal design principles, and explicitly acknowledge the limitations associated with the dataset size.
+The XGBoost and SHAP results are now presented as trends within this dataset and sampled ranges, not as causal relationships or universal design principles.
+
+Please add the new material directly to the appropriate locations in the attached manuscript and SI, rather than providing it separately. Highlight all additions/revisions in yellow so that we can easily identify the changes for the review version.
+All new material was added directly to the manuscript and SI and highlighted in yellow. The Abstract was not changed.
+
+It would also be helpful to provide me with a brief summary of the total number of data points used for each target and the final validation/model-performance results, so I can incorporate these details into the response letter.
+Each target used 23 records. For Faradaic efficiency, R² = 1.000, RMSE ≈ 0.090, and MAE = 0.069. For NH₃ yield, R² = 1.000, RMSE ≈ 0.235, and MAE = 0.180. All metrics are from the training data.
